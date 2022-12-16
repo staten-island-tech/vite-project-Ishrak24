@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animal World</title>
+    </head>
+    <body class="dark">
+        <div id="header">
+            <h1>Types of Animals</h1>
+        </div>
+        <div class="filters">
+            <button class="filter-button" id="all">All Animals</button>
+            <button class="filter-button" id="smart">Smart</button>
+            <button class="filter-button" id="dumb">Dumb</button>
+            <button class="filter-button" id="wet">Wet</button>
+            <button class="filter-button" id="ohio">Ohio</button>
+        </div>
+        <button id="theme-button">Change Theme</button>
+        <div class="menu" id="menu"></div>
+        <script type="module" src="/main.js"></script>
+    </body>
 </html>
