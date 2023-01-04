@@ -1,33 +1,36 @@
-export const menu = [
+const menu = [
   {
-    name: "Burger",
-    description: "Juicy Burger",
+    name: "Mark",
+    description: "Distinguished Gentlemen",
+    type: "smart",
     image:
-      "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg",
+      "https://www.thoughtco.com/thmb/XcUPG7rFqzI7Q2odRyhBZvdM6jg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-dog-wearing-eyeglasses-901854774-5a5e493d5b6e240038dc85ca.jpg",
   },
   {
     name: "Grilled Cheese",
-    description: "Very Good Grilled Cheese",
+    description: "Wattpad Enjoyer",
+    type: "smart",
     image:
-      "https://hips.hearstapps.com/hmg-prod/images/airfryergrilledcheese1-1644940121.jpg",
+      "https://cdn.thecoolist.com/wp-content/uploads/2022/05/Smartest-Animals.jpeg",
   },
   {
-    name: "French Fries",
-    description: "Crispy Fries",
+    name: "Roofus",
+    description: "Local Bus Driver",
+    type: "smart",
     image:
-      "https://www.thespruceeats.com/thmb/IHKuXcx3uUI1IWkM_cnnQdFH-zQ=/3485x2323/filters:fill(auto,1)/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpg",
+      "https://img.huffingtonpost.com/asset/5bad518d2400003100549822.jpeg?ops=scalefit_630_400_noupscale",
   },
   {
-    name: "Buffalo Wings",
-    description: "Spicy Buffalo Wings",
+    name: "Big Cheese",
+    description: "Me when your mom",
     image:
-      "https://img.buzzfeed.com/video-api-prod/assets/7def155256434be9ac01e752e1b79558/Facebook_Square.jpg",
+      "https://imhttps://imgix.ranker.com/list_img_v2/17025/2357025/original/dumb-animal-pictures?w=817&h=427&fm=jpg&q=50&fit=cropgix.ranker.com/list_img_v2/17025/2357025/original/dumb-animal-pictures?w=817&h=427&fm=jpg&q=50&fit=crop",
   },
   {
-    name: "Chicken Tenders",
-    description: "Crispy Chicken Tenders",
+    name: "Moo",
+    description: "How milk was discovered",
     image:
-      "https://thecozycook.com/wp-content/uploads/2020/07/Fried-Chicken-Tenders-f.jpg",
+      "https://cosmofunnel.com/sites/default/files/styles/full/public/2016-02/8586866785.jpg?itok=fjkiVD3P",
   },
   {
     name: "Steak",
