@@ -1,4 +1,4 @@
-const menu = [
+export const menu = [
   {
     name: "Mark",
     description: "Distinguished Gentlemen",
@@ -23,31 +23,63 @@ const menu = [
   {
     name: "Big Cheese",
     description: "Me when your mom",
+    type: "dumb",
     image:
       "https://imhttps://imgix.ranker.com/list_img_v2/17025/2357025/original/dumb-animal-pictures?w=817&h=427&fm=jpg&q=50&fit=cropgix.ranker.com/list_img_v2/17025/2357025/original/dumb-animal-pictures?w=817&h=427&fm=jpg&q=50&fit=crop",
   },
   {
     name: "Moo",
     description: "How milk was discovered",
+    type: "dumb",
     image:
       "https://cosmofunnel.com/sites/default/files/styles/full/public/2016-02/8586866785.jpg?itok=fjkiVD3P",
   },
   {
-    name: "Steak",
-    description: "Made From Rats Caught in The Kitchen",
+    name: "Kool",
+    description: "You got any games on your phone",
+    type: "dumb",
     image:
-      "https://www.seriouseats.com/thmb/lBAvOl5D32f_fge1kx8Asver10Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/butter-basted-pan-seared-steaks-recipe-hero-06-03b1131c58524be2bd6c9851a2fbdbc3.jpg",
+      "https://imgix.ranker.com/user_node_img/50054/1001078597/original/1-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375",
   },
   {
-    name: "Caesar Salad",
-    description: "Salad with Chicken",
+    name: "Bara Bara",
+    description: "Ok I pull up",
+    type: "wet",
     image:
-      "https://www.verywellfit.com/thmb/c3anlJTrJwv1nAAhXUvKqgjndTo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/caesar-salad-with-grilled-chicken-121664016-5bd22cbc46e0fb00519577c3.jpg",
+      "https://thekidshouldseethis.com/wp-content/uploads/2020/04/capybaras-strawberry-bath-japan-01.jpg",
   },
   {
-    name: "Ice Cream",
-    description: "Delicious Ice Cream",
+    name: "Achilles",
+    description: "Mother, don't leave me mother",
+    type: "wet",
+    image: "https://i.insider.com/612fbb4b9ef1e50018f93619?width=700",
+  },
+  {
+    name: "Joe Mama",
+    description: "Your neighbor Joe",
+    type: "wet",
     image:
-      "https://hips.hearstapps.com/hmg-prod/images/easiest-ever-fruit-and-coconut-ice-cream-1643120950.jpg?crop=0.990xw:0.660xh;0,0.158xh&resize=640:*",
+      "https://i.cbc.ca/1.6521087.1657836484!/fileImage/httpImage/iguana-in-toilet.jpg",
+  },
+  {
+    name: "Hog Rider",
+    description: "Hog Rider in Ohio",
+    type: "ohio",
+    image:
+      "https://i.pinimg.com/originals/69/80/48/6980482eca42ba890a5c5fc9cbb8d668.jpg",
+  },
+  {
+    name: "Dimbus",
+    description: "Abandoned as a pup, adopted by Harambe",
+    type: "ohio",
+    image:
+      "https://i.pinimg.com/736x/2c/ea/ba/2ceabad95ec3fbaddb36c81dda535a63--strange-animals-pug.jpg",
+  },
+  {
+    name: "Snek",
+    description: "Skips leg day everyday",
+    type: "ohio",
+    image:
+      "https://static.boredpanda.com/blog/wp-content/uploads/2019/06/0wRUgCXvg_RaZ2XE6y70MRGjMfSgbzruHNri4zCYpy4-5d15d2b2c720c__880.jpg",
   },
 ];

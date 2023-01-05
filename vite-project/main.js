@@ -1,4 +1,30 @@
-import "./list";
+import { menu } from "./list";
+const d = new Date();
+var day = "";
+
+switch (d.getDay()) {
+  case 0:
+    day = "sunday";
+    break;
+  case 1:
+    day = "moday";
+    break;
+  case 2:
+    day = "tuesday";
+    break;
+  case 3:
+    day = "wednesday";
+    break;
+  case 4:
+    day = "thursday";
+    break;
+  case 5:
+    day = "friday";
+    break;
+  case 6:
+    day = "saturday";
+    break;
+}
 
 const menuDiv = document.querySelector("#menu");
 display(menu);
@@ -7,19 +33,24 @@ document.querySelector("#all").addEventListener("click", function () {
   menuDiv.innerHTML = "";
   display(menu);
 });
-document.querySelector("#beef").addEventListener("click", function () {
+document.querySelector("#smart").addEventListener("click", function () {
   menuDiv.innerHTML = "";
-  const filtered = menu.filter((item) => item.meat === "beef");
+  const filtered = menu.filter((item) => item.type === "smart");
   display(filtered);
 });
-document.querySelector("#chicken").addEventListener("click", function () {
+document.querySelector("#dumb").addEventListener("dumb", function () {
   menuDiv.innerHTML = "";
-  const filtered = menu.filter((item) => item.meat === "chicken");
+  const filtered = menu.filter((item) => item.type === "chicken");
   display(filtered);
 });
-document.querySelector("#vegetarian").addEventListener("click", function () {
+document.querySelector("#wet").addEventListener("click", function () {
   menuDiv.innerHTML = "";
-  const filtered = menu.filter((item) => item.meat === "none");
+  const filtered = menu.filter((item) => item.type === "wet");
+  display(filtered);
+});
+document.querySelector("#ohio").addEventListener("click", function () {
+  menuDiv.innerHTML = "";
+  const filtered = menu.filter((item) => item.type === "ohio");
   display(filtered);
 });
 
@@ -37,11 +68,11 @@ function display(array) {
     menuDiv.insertAdjacentHTML(
       "beforeend",
       `<div class="menu-object">
-                <h2>${item.name}</h2>
-                <img class="menu-image" src="${item.image}">
-                <p class="menu-object-price">$${item.price}</p>
-                <p class="menu-object-text">${item.description}</p>
-            </div>`
+              <h2>${item.name}</h2>
+              <img class="menu-image" src="${item.image}">
+              <p class="menu-object-price">$${item.price}</p>
+              <p class="menu-object-text">${item.description}</p>
+          </div>`
     );
     if (item.sales.includes(day)) item.price = item.price * 2;
   });
