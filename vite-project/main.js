@@ -38,9 +38,9 @@ document.querySelector("#smart").addEventListener("click", function () {
   const filtered = menu.filter((item) => item.type === "smart");
   display(filtered);
 });
-document.querySelector("#dumb").addEventListener("dumb", function () {
+document.querySelector("#dumb").addEventListener("click", function () {
   menuDiv.innerHTML = "";
-  const filtered = menu.filter((item) => item.type === "chicken");
+  const filtered = menu.filter((item) => item.type === "dumb");
   display(filtered);
 });
 document.querySelector("#wet").addEventListener("click", function () {
@@ -70,7 +70,6 @@ function display(array) {
       `<div class="menu-object">
               <h2>${item.name}</h2>
               <img class="menu-image" src="${item.image}">
-              <p class="menu-object-price">$${item.price}</p>
               <p class="menu-object-text">${item.description}</p>
           </div>`
     );
